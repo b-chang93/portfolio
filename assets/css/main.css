@@ -1,6 +1,19 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
+* {
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-weight: bold;
+}
+
 #wrapper {
   background-color: inherit;
   width: 100%;
@@ -183,6 +196,10 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   border: 1px solid #e7e7e7;
 }
 
+li, a {
+  margin: 0 10px;
+}
+
 @media screen and (min-width: 800px) {
   .banner {
     margin: auto;
@@ -322,7 +339,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   }
 
   h2, .gallery article .caption h3, .gallery article .caption h4, .gallery article .caption h5, .gallery article .caption h6 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 0.25rem;
   }
 
