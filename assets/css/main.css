@@ -12,6 +12,8 @@
 
 html {
   scroll-behavior: smooth;
+   max-width: 1300px;
+   margin: auto;
 }
 
 #wrapper {
@@ -418,8 +420,8 @@ li > a {
   }
 
   .connect {
-    width: 100% !important;
-    margin-left: 90px !important;
+    width: 60% !important;
+    margin-left: 85px !important;
   }
 
   .medium {
