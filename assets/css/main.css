@@ -32,7 +32,7 @@ html {
   display: block;
   width: 250px;
   height: 250px;
-  margin: auto;
+  margin: 10px auto;
   border-radius: 100%;
 }
 
@@ -63,7 +63,7 @@ ul.actions li {
   height: 4em;
   line-height: 4em;
   border-radius: 4em;
-  padding: 0 3em;
+  padding: 0 2.1em;
 }
 
 ul.actions li > * {
@@ -90,7 +90,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   height: 3.75em;
   line-height: 3.75em;
   border-radius: 3.75em;
-  padding: 0 2.5em;
+  padding: 0 2.3em;
   text-overflow: ellipsis;
   overflow: hidden;
 }
@@ -200,8 +200,13 @@ li, a {
   margin: 0 10px;
 }
 
+.actions > li {
+  margin: 0;
+  margin-right: 5px;
+}
+
 .medium {
-  width: 30%;
+  width: 55%;
   margin: auto;
   padding: 4rem 4rem 2rem 4rem;
 }
@@ -215,7 +220,6 @@ li, a {
   list-style: none;
   padding: 0;
   width: 70%;
-  margin: auto;
 }
 
 .icons > li > a {
@@ -239,11 +243,6 @@ a.icon:before {
 
 .fab:hover, .fas:hover {
   color: #800040;
-}
-
-.icon {
-  border: 1px solid #e7e7e7;
-  border-radius: 100%;
 }
 
 li > a {
@@ -287,8 +286,8 @@ li > a {
     max-width: 100%;
   }
 
-  .image {
-    margin-right: 50px;
+  section > .image {
+    margin: 50px;
   }
 
   .image img {
@@ -370,8 +369,8 @@ li > a {
   }
 
   .caption {
-    width: 87%;
-    height: 87%;
+    width: 90%;
+    height: 90%;
   }
 
   .caption > h3 {
@@ -416,5 +415,19 @@ li > a {
 
   .spotlight {
     margin: 10px 0 20px;
+  }
+
+  .connect {
+    width: 100% !important;
+    margin-left: 90px !important;
+  }
+
+  .medium {
+    width: 30%;
+  }
+
+  .icon {
+    border: 1px solid #e7e7e7;
+    border-radius: 100%;
   }
 }
