@@ -110,6 +110,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   line-height: 1.375;
   letter-spacing: -0.05em;
   margin: 0 0 1rem 0;
+  text-align: center;
 }
 
 .gallery {
@@ -133,7 +134,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 }
 
 .gallery.small article {
-  width: 30%;
+  width: 25%;
 }
 
 .gallery article {
@@ -145,7 +146,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 .gallery article .image {
   transition: opacity 0.2s ease-in-out;
   display: block;
-  width: 100%;
+  width: 87%;
   border-radius: 0;
 }
 
@@ -160,7 +161,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   top: 0;
   left: 0;
   width: 70%;
-  height: 70%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
   z-index: 1;
@@ -195,7 +196,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 }
 
 .spotlight, .gallery, .wrapper {
-  border: 1px solid #e7e7e7;
+  border-bottom: 1px solid #808080;
 }
 
 li, a {
@@ -254,6 +255,11 @@ li > a {
 .label {
   display: none;
 }
+
+.style1 {
+  border-bottom: 1px solid #808080;
+}
+
 
 @media screen and (min-width: 800px) {
   .banner {
@@ -355,6 +361,8 @@ li > a {
 
   .gallery.small article {
     width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .gallery article {
@@ -366,13 +374,13 @@ li > a {
   .gallery article .image {
     transition: opacity 0.2s ease-in-out;
     display: block;
-    width: 100%;
+    width: 80%;
     border-radius: 0;
   }
 
   .caption {
-    width: 90%;
-    height: 90%;
+    width: 67%;
+    height: 85%;
   }
 
   .caption > h3 {
@@ -381,7 +389,7 @@ li > a {
   }
 
   .caption > p {
-    font-size: 14px;
+    font-size: 12px;
     padding: 0;
     border: 0;
     vertical-align: baseline;
@@ -396,6 +404,7 @@ li > a {
   h2, .gallery article .caption h3, .gallery article .caption h4, .gallery article .caption h5, .gallery article .caption h6 {
     font-size: 2.5rem;
     margin-bottom: 0.25rem;
+    margin-top: 0;
   }
 
   .content {
